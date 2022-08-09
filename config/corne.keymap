@@ -37,15 +37,15 @@
         QWERTY {
             label = "QWERTY";
             bindings = <
-       &kp TAB   &kp Q   &kp W   &kp E         &kp R             &kp T            &kp Y      &kp U     &kp I    &kp O            &kp P     &kp BACKSPACE
- &kp BACKSPACE   &kp A   &kp S   &kp D         &kp F             &kp G            &kp H      &kp J     &kp K    &kp L  &lt 6 SEMICOLON  &kp SINGLE_QUOTE
-     &kp LSHFT   &kp Z   &kp X   &kp C         &kp V             &kp B            &kp N      &kp M  &kp CMMA  &kp DOT         &kp FSLH        &kp RSHIFT
-                                 &mo 3  &lt 5 RETURN  &kp LEFT_COMMAND  &lt 4 BACKSPACE  &kp SPACE      &meh
+       &kp TAB   &kp Q   &kp W   &kp E         &kp R             &kp T          &kp Y      &kp U     &kp I    &kp O            &kp P     &kp BACKSPACE
+ &kp BACKSPACE   &kp A   &kp S   &kp D         &kp F             &kp G          &kp H      &kp J     &kp K    &kp L  &lt 6 SEMICOLON  &kp SINGLE_QUOTE
+     &kp LSHFT   &kp Z   &kp X   &kp C         &kp V             &kp B          &kp N      &kp M  &kp CMMA  &kp DOT         &kp FSLH        &kp RSHIFT
+                                 &mo 4  &lt 5 RETURN  &kp LEFT_COMMAND  &kp BACKSPACE  &kp SPACE      &meh
             >;
         };
 
         NUMROW {
-            label = "NUMROW";
+            label = "CONFIG";
             bindings = <
    &kp ESC  &kp N1  &kp N2     &kp N3     &kp N4     &kp N5    &kp N6    &kp N7   &kp N8     &kp N9    &kp N0  &kp DEL
  &kp GRAVE   &none   &none  &kp PSCRN  &kp MINUS  &kp EQUAL  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp SEMI    &none
@@ -55,7 +55,6 @@
         };
 
         ADJUST {
-            label = "ADJUST";
             bindings = <
    &kp F1   &kp F2    &kp F3     &kp F4    &kp F5  &kp F6    &kp F7    &kp F8  &kp F9    &kp F10  &kp F11  &kp F12
  &kp CAPS  &kp INS  &kp HOME  &kp PG_UP     &none   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &none    &none
@@ -65,7 +64,6 @@
         };
 
         CONFIG {
-            label = "CONFIG";
             bindings = <
      &reset         &none         &none         &none         &none         &none    &none   &none    &none   &none   &none   &none
  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none    &none   &none   &none   &none
