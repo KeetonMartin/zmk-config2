@@ -67,7 +67,7 @@
  &reset  &trans          &trans    &kp UP_ARROW           &trans  &trans      &trans          &trans    &kp UP_ARROW           &trans  &trans  &reset
  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
  &trans  &trans          &trans          &trans           &trans  &trans      &trans          &trans          &trans           &trans  &trans  &trans
-                                         &trans           &trans  &trans  &kp ESCAPE          &trans          &trans
+                                         &trans           &trans  &trans  &kp ESCAPE          &trans           &sl 2
             >;
         };
 
