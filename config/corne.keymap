@@ -64,10 +64,10 @@
 
         NAV {
             bindings = <
- &reset  &trans          &trans    &kp UP_ARROW           &trans  &trans      &trans          &trans    &kp UP_ARROW           &trans  &trans  &reset
- &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
- &trans  &trans          &trans          &trans           &trans  &trans      &trans          &trans          &trans           &trans  &trans  &trans
-                                         &trans           &trans  &trans  &kp ESCAPE          &trans           &sl 2
+      &reset  &trans          &trans    &kp UP_ARROW           &trans  &trans      &trans          &trans    &kp UP_ARROW           &trans  &trans       &reset
+ &bootloader  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &bootloader
+      &trans  &trans          &trans          &trans           &trans  &trans      &trans          &trans          &trans           &trans  &trans       &trans
+                                              &trans           &trans  &trans  &kp ESCAPE          &trans           &sl 2
             >;
         };
 
