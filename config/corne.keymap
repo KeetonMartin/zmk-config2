@@ -40,7 +40,7 @@
        &kp TAB               &kp Q   &kp W   &kp E         &kp R             &kp T          &kp Y      &kp U      &kp I    &kp O            &kp P     &kp BACKSPACE
  &kp BACKSPACE               &kp A   &kp S   &kp D         &kp F             &kp G          &kp H      &kp J      &kp K    &kp L  &lt 5 SEMICOLON  &kp SINGLE_QUOTE
      &kp LSHFT  &mt LEFT_CONTROL Z   &kp X   &kp C         &kp V             &kp B          &kp N      &kp M  &kp COMMA  &kp DOT         &kp FSLH        &kp RSHIFT
-                                             &mo 3  &lt 4 RETURN  &kp LEFT_COMMAND  &kp BACKSPACE  &kp SPACE       &meh
+                                             &mo 3  &lt 4 RETURN  &kp LEFT_COMMAND  &kp LA(BACKSPACE)  &kp SPACE       &meh
             >;
         };
 
@@ -65,7 +65,7 @@
         NAV {
             bindings = <
       &reset  &trans          &trans    &kp UP_ARROW           &trans  &trans      &trans          &trans    &kp UP_ARROW           &trans  &trans       &reset
- &bootloader  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &bootloader
+ &bootloader  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans  &bootloader
       &trans  &trans          &trans          &trans           &trans  &trans      &trans          &trans          &trans           &trans  &trans       &trans
                                               &trans           &trans  &trans  &kp ESCAPE          &trans           &sl 2
             >;
